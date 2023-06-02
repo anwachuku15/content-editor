@@ -256,6 +256,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./src/components/BottomBar/DummyOverlay.js": {
+      "*": {
+        "id": "(sc_client)/./src/components/BottomBar/DummyOverlay.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/BottomBar/DummyOverlay.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/BottomBar/DummyOverlay.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./src/components/BottomBar/Overlay.js": {
       "*": {
         "id": "(sc_client)/./src/components/BottomBar/Overlay.js",
@@ -405,6 +431,32 @@ self.__RSC_MANIFEST={
       },
       "default": {
         "id": "(sc_client)/./src/components/Header.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/Sidebar/DummyPanel.js": {
+      "*": {
+        "id": "(sc_client)/./src/components/Sidebar/DummyPanel.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/Sidebar/DummyPanel.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/Sidebar/DummyPanel.js",
         "name": "default",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -1144,20 +1196,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/andrewnwachuku/content-editor/src/app/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/andrewnwachuku/content-editor/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
     "/Users/andrewnwachuku/content-editor/src/app/page.js": {
       "id": "(app-client)/./src/app/page.js",
       "name": "*",
@@ -1176,6 +1214,30 @@ self.__RSC_MANIFEST={
     },
     "/Users/andrewnwachuku/content-editor/src/app/page.js#default": {
       "id": "(app-client)/./src/app/page.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/andrewnwachuku/content-editor/src/components/BottomBar/DummyOverlay.js": {
+      "id": "(app-client)/./src/components/BottomBar/DummyOverlay.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/andrewnwachuku/content-editor/src/components/BottomBar/DummyOverlay.js#": {
+      "id": "(app-client)/./src/components/BottomBar/DummyOverlay.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/andrewnwachuku/content-editor/src/components/BottomBar/DummyOverlay.js#default": {
+      "id": "(app-client)/./src/components/BottomBar/DummyOverlay.js",
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -1326,6 +1388,30 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "/Users/andrewnwachuku/content-editor/src/components/Sidebar/DummyPanel.js": {
+      "id": "(app-client)/./src/components/Sidebar/DummyPanel.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/andrewnwachuku/content-editor/src/components/Sidebar/DummyPanel.js#": {
+      "id": "(app-client)/./src/components/Sidebar/DummyPanel.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/andrewnwachuku/content-editor/src/components/Sidebar/DummyPanel.js#default": {
+      "id": "(app-client)/./src/components/Sidebar/DummyPanel.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/andrewnwachuku/content-editor/src/components/Sidebar/SettingsPanel.js": {
       "id": "(app-client)/./src/components/Sidebar/SettingsPanel.js",
       "name": "*",
@@ -1373,6 +1459,20 @@ self.__RSC_MANIFEST={
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
+    },
+    "/Users/andrewnwachuku/content-editor/src/app/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/andrewnwachuku/content-editor/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
     }
   }
 }
