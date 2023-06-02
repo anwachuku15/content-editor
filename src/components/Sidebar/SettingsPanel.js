@@ -101,7 +101,7 @@ const SettingsPanel = () => {
 									<div className="overflow-hidden"> */}
 								{setting.name === "Target Audiences" ? (
 									<>
-										<form className="flex justify-between w-11/12">
+										<form className="flex justify-between w-11/12 ml-4">
 											<input
 												type="text"
 												value={state.targetInput}
