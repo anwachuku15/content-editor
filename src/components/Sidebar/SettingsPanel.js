@@ -90,63 +90,70 @@ const SettingsPanel = () => {
 									/>
 								</div>
 							</div>
-
-							{setting.isOpen && (
-								<div className="overflow-hidden">
-									{setting.name === "Target Audiences" ? (
-										<>
-											<form className="flex justify-between w-11/12">
-												<input
-													type="text"
-													value={state.targetInput}
-													onChange={(e) => {
-														dispatch(setTargetInput(e.target.value));
-													}}
-													className="rounded-sm h-8 w-5/6 focus:outline-none p-1"
-												/>
-												<button
-													onClick={() => dispatch(addTarget())}
-													disabled={state.targetInput.trim().length === 0}
-													className={`bg-gray-300 rounded-sm ml-1 h-8 w-1/6 text-xs ${
-														state.targetInput.trim().length < 1
-															? "text-gray-400"
-															: "text-gray-700"
-													}`}
-												>
-													Add
-												</button>
-											</form>
-
-											<div
-												className={`flex flex-wrap mt-3 bg-[#0f1120] rounded-md ${
-													state.targets.length > 0 && "p-2"
+							<motion.div
+								initial={{ height: 0 }}
+								animate={
+									setting.isOpen ? { height: "fit-content" } : { height: 0 }
+								}
+								className="overflow-hidden"
+							>
+								{/* {setting.isOpen && (
+									<div className="overflow-hidden"> */}
+								{setting.name === "Target Audiences" ? (
+									<>
+										<form className="flex justify-between w-11/12">
+											<input
+												type="text"
+												value={state.targetInput}
+												onChange={(e) => {
+													dispatch(setTargetInput(e.target.value));
+												}}
+												className="rounded-sm h-8 w-5/6 focus:outline-none p-1"
+											/>
+											<button
+												onClick={() => dispatch(addTarget())}
+												disabled={state.targetInput.trim().length === 0}
+												className={`bg-gray-300 rounded-sm ml-1 h-8 w-1/6 text-xs ${
+													state.targetInput.trim().length < 1
+														? "text-gray-400"
+														: "text-gray-700"
 												}`}
 											>
-												{state.targets.map((target, index) => (
-													<div
-														key={index}
-														className="flex flex-wrap max-w-fit items-center mr-2 mb-2 py-0.5 px-[0.4rem] bg-chip-bg rounded-xl"
-													>
-														<p className="mr-1 text-chip-text text-[0.7rem] text-clip font-medium">
-															{target}
-														</p>
-														<XMarkIcon
-															onClick={() => dispatch(removeTarget(index))}
-															className="cursor-pointer h-3 w-3 text-gray-600"
-														/>
-													</div>
-												))}
-											</div>
-										</>
-									) : (
-										<div>
-											<h1 className="text-white text-sm ml-4">
-												Dummy content for {setting.name}
-											</h1>
+												Add
+											</button>
+										</form>
+
+										<div
+											className={`flex flex-wrap mt-3 bg-[#0f1120] rounded-md ${
+												state.targets.length > 0 && "p-2"
+											}`}
+										>
+											{state.targets.map((target, index) => (
+												<div
+													key={index}
+													className="flex flex-wrap max-w-fit items-center mr-2 mb-2 py-0.5 px-[0.4rem] bg-chip-bg rounded-xl"
+												>
+													<p className="mr-1 text-chip-text text-[0.7rem] text-clip font-medium">
+														{target}
+													</p>
+													<XMarkIcon
+														onClick={() => dispatch(removeTarget(index))}
+														className="cursor-pointer h-3 w-3 text-gray-600"
+													/>
+												</div>
+											))}
 										</div>
-									)}
-								</div>
-							)}
+									</>
+								) : (
+									<div>
+										<h1 className="text-white text-sm ml-4">
+											Dummy content for {setting.name}
+										</h1>
+									</div>
+								)}
+								{/* </div>
+								)} */}
+							</motion.div>
 						</div>
 					</div>
 				))}
