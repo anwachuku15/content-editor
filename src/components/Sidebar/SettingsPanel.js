@@ -79,7 +79,7 @@ const SettingsPanel = () => {
 								onClick={() => setting.setIsOpen(!setting.isOpen)}
 								className="cursor-pointer flex justify-between mb-2"
 							>
-								<p className="text-stone-400 text-[0.8rem] font-bold font-open-sans select-none ml-[0.4rem]">
+								<p className="truncate text-stone-400 text-[0.8rem] font-bold font-open-sans select-none ml-[0.4rem]">
 									{setting.name}
 								</p>
 								<div className={`cursor-pointer`}>

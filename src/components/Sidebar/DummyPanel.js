@@ -16,11 +16,11 @@ const DummyPanel = () => {
 		>
 			{/* DUMMY HEADER */}
 			<div
-				className={`flex flex-row mt-3 mr-3 mb-2 w-full justify-between items-center duration-300 ${
-					!state.isSpeakerOpen && "scale-0"
+				className={`flex flex-row mt-3 mr-3 mb-2 w-full justify-between items-center duration-100 ${
+					!state.isSpeakerOpen && "opacity-0"
 				}`}
 			>
-				<h1 className="text-light-purple text-lg xl:text-xl select-none">
+				<h1 className="text-light-purple text-lg xl:text-xl select-none truncate">
 					Voice Settings
 				</h1>
 				<div
@@ -30,8 +30,8 @@ const DummyPanel = () => {
 					<XMarkIcon className="h-5 w-5 black" />
 				</div>
 			</div>
-			<div className={`${!state.isSpeakerOpen && "scale-0"} duration-300`}>
-				<h1 className="text-white">Dummy content goes here</h1>
+			<div className={`${!state.isSpeakerOpen && "opacity-0"} duration-100`}>
+				<h1 className="truncate text-white">Dummy content goes here</h1>
 			</div>
 		</div>
 	);
