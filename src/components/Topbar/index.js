@@ -7,7 +7,7 @@ import DummyOverlay from "./DummyOverlay";
 import { useStateValue } from "@/context/StateProvider";
 import { setIsSettingsOpen, setIsSpeakerOpen } from "@/context/actions";
 
-const BottomBar = () => {
+const Topbar = () => {
 	const [state, dispatch] = useStateValue();
 	const [windowWidth, setWindowWidth] = useState();
 
@@ -28,7 +28,7 @@ const BottomBar = () => {
 			{state.isSettingsOpen && windowWidth < 768 && <SettingsOverlay />}
 			{state.isSpeakerOpen && windowWidth < 768 && <DummyOverlay />}
 
-			<div className="flex items-center h-[48px] md:h-[60px] md:hidden  justify-evenly">
+			<div className="flex items-center h-[48px] sm:h-[60px] md:hidden  justify-evenly">
 				<div
 					onClick={() => dispatch(setIsSettingsOpen())}
 					className={`cursor-pointer flex items-center justify-center rounded-md h-9 w-9 duration-100 ${
@@ -59,4 +59,4 @@ const BottomBar = () => {
 	);
 };
 
-export default BottomBar;
+export default Topbar;

@@ -21,7 +21,7 @@ const DummyPanel = () => {
 				}`}
 			>
 				<h1 className="text-light-purple text-lg xl:text-xl select-none">
-					Dummy Panel
+					Voice Settings
 				</h1>
 				<div
 					onClick={() => dispatch(closeDummyPanel())}

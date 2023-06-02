@@ -145,7 +145,7 @@ const SettingsPanel = () => {
 									</>
 								) : (
 									<div>
-										<h1 className="text-white text-sm">
+										<h1 className="text-white text-sm ml-4">
 											Dummy content for {setting.name}
 										</h1>
 									</div>

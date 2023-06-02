@@ -578,6 +578,15 @@ video {
 .mt-8{
   margin-top: 2rem;
 }
+.ml-3{
+  margin-left: 0.75rem;
+}
+.ml-5{
+  margin-left: 1.25rem;
+}
+.ml-4{
+  margin-left: 1rem;
+}
 .flex{
   display: flex;
 }
@@ -649,6 +658,9 @@ video {
 }
 .h-\[90vh\]{
   height: 90vh;
+}
+.h-\[100vh\]{
+  height: 100vh;
 }
 .w-1\/6{
   width: 16.666667%;
