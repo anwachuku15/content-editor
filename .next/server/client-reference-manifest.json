@@ -256,9 +256,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/components/BottomNav.js": {
+    "(app-client)/./src/components/BottomBar/Overlay.js": {
       "*": {
-        "id": "(sc_client)/./src/components/BottomNav.js",
+        "id": "(sc_client)/./src/components/BottomBar/Overlay.js",
         "name": "*",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -266,7 +266,7 @@
         "async": false
       },
       "": {
-        "id": "(sc_client)/./src/components/BottomNav.js",
+        "id": "(sc_client)/./src/components/BottomBar/Overlay.js",
         "name": "",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -274,7 +274,7 @@
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/components/BottomNav.js",
+        "id": "(sc_client)/./src/components/BottomBar/Overlay.js",
         "name": "default",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -282,9 +282,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/components/Editor.js": {
+    "(app-client)/./src/components/BottomBar/index.js": {
       "*": {
-        "id": "(sc_client)/./src/components/Editor.js",
+        "id": "(sc_client)/./src/components/BottomBar/index.js",
         "name": "*",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -292,7 +292,7 @@
         "async": false
       },
       "": {
-        "id": "(sc_client)/./src/components/Editor.js",
+        "id": "(sc_client)/./src/components/BottomBar/index.js",
         "name": "",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -300,7 +300,85 @@
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/components/Editor.js",
+        "id": "(sc_client)/./src/components/BottomBar/index.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/Editor/MediaPlayer.js": {
+      "*": {
+        "id": "(sc_client)/./src/components/Editor/MediaPlayer.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/Editor/MediaPlayer.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/Editor/MediaPlayer.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/Editor/ScriptEditor.js": {
+      "*": {
+        "id": "(sc_client)/./src/components/Editor/ScriptEditor.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/Editor/ScriptEditor.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/Editor/ScriptEditor.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/Editor/index.js": {
+      "*": {
+        "id": "(sc_client)/./src/components/Editor/index.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/Editor/index.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/Editor/index.js",
         "name": "default",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -334,9 +412,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/components/MediaPlayer.js": {
+    "(app-client)/./src/components/Sidebar/SettingsPanel.js": {
       "*": {
-        "id": "(sc_client)/./src/components/MediaPlayer.js",
+        "id": "(sc_client)/./src/components/Sidebar/SettingsPanel.js",
         "name": "*",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -344,7 +422,7 @@
         "async": false
       },
       "": {
-        "id": "(sc_client)/./src/components/MediaPlayer.js",
+        "id": "(sc_client)/./src/components/Sidebar/SettingsPanel.js",
         "name": "",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -352,7 +430,7 @@
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/components/MediaPlayer.js",
+        "id": "(sc_client)/./src/components/Sidebar/SettingsPanel.js",
         "name": "default",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -360,9 +438,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/components/Overlay.js": {
+    "(app-client)/./src/components/Sidebar/index.js": {
       "*": {
-        "id": "(sc_client)/./src/components/Overlay.js",
+        "id": "(sc_client)/./src/components/Sidebar/index.js",
         "name": "*",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -370,7 +448,7 @@
         "async": false
       },
       "": {
-        "id": "(sc_client)/./src/components/Overlay.js",
+        "id": "(sc_client)/./src/components/Sidebar/index.js",
         "name": "",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -378,59 +456,7 @@
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/components/Overlay.js",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/ScriptEditor.js": {
-      "*": {
-        "id": "(sc_client)/./src/components/ScriptEditor.js",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/ScriptEditor.js",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/ScriptEditor.js",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/Sidebar.js": {
-      "*": {
-        "id": "(sc_client)/./src/components/Sidebar.js",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/Sidebar.js",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/Sidebar.js",
+        "id": "(sc_client)/./src/components/Sidebar/index.js",
         "name": "default",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -1156,48 +1182,120 @@
       ],
       "async": false
     },
-    "/Users/andrewnwachuku/content-editor/src/components/BottomNav.js": {
-      "id": "(app-client)/./src/components/BottomNav.js",
+    "/Users/andrewnwachuku/content-editor/src/components/BottomBar/Overlay.js": {
+      "id": "(app-client)/./src/components/BottomBar/Overlay.js",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/andrewnwachuku/content-editor/src/components/BottomNav.js#": {
-      "id": "(app-client)/./src/components/BottomNav.js",
+    "/Users/andrewnwachuku/content-editor/src/components/BottomBar/Overlay.js#": {
+      "id": "(app-client)/./src/components/BottomBar/Overlay.js",
       "name": "",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/andrewnwachuku/content-editor/src/components/BottomNav.js#default": {
-      "id": "(app-client)/./src/components/BottomNav.js",
+    "/Users/andrewnwachuku/content-editor/src/components/BottomBar/Overlay.js#default": {
+      "id": "(app-client)/./src/components/BottomBar/Overlay.js",
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/andrewnwachuku/content-editor/src/components/Editor.js": {
-      "id": "(app-client)/./src/components/Editor.js",
+    "/Users/andrewnwachuku/content-editor/src/components/BottomBar/index.js": {
+      "id": "(app-client)/./src/components/BottomBar/index.js",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/andrewnwachuku/content-editor/src/components/Editor.js#": {
-      "id": "(app-client)/./src/components/Editor.js",
+    "/Users/andrewnwachuku/content-editor/src/components/BottomBar/index.js#": {
+      "id": "(app-client)/./src/components/BottomBar/index.js",
       "name": "",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/andrewnwachuku/content-editor/src/components/Editor.js#default": {
-      "id": "(app-client)/./src/components/Editor.js",
+    "/Users/andrewnwachuku/content-editor/src/components/BottomBar/index.js#default": {
+      "id": "(app-client)/./src/components/BottomBar/index.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/andrewnwachuku/content-editor/src/components/Editor/MediaPlayer.js": {
+      "id": "(app-client)/./src/components/Editor/MediaPlayer.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/andrewnwachuku/content-editor/src/components/Editor/MediaPlayer.js#": {
+      "id": "(app-client)/./src/components/Editor/MediaPlayer.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/andrewnwachuku/content-editor/src/components/Editor/MediaPlayer.js#default": {
+      "id": "(app-client)/./src/components/Editor/MediaPlayer.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/andrewnwachuku/content-editor/src/components/Editor/ScriptEditor.js": {
+      "id": "(app-client)/./src/components/Editor/ScriptEditor.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/andrewnwachuku/content-editor/src/components/Editor/ScriptEditor.js#": {
+      "id": "(app-client)/./src/components/Editor/ScriptEditor.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/andrewnwachuku/content-editor/src/components/Editor/ScriptEditor.js#default": {
+      "id": "(app-client)/./src/components/Editor/ScriptEditor.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/andrewnwachuku/content-editor/src/components/Editor/index.js": {
+      "id": "(app-client)/./src/components/Editor/index.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/andrewnwachuku/content-editor/src/components/Editor/index.js#": {
+      "id": "(app-client)/./src/components/Editor/index.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/andrewnwachuku/content-editor/src/components/Editor/index.js#default": {
+      "id": "(app-client)/./src/components/Editor/index.js",
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -1228,96 +1326,48 @@
       ],
       "async": false
     },
-    "/Users/andrewnwachuku/content-editor/src/components/MediaPlayer.js": {
-      "id": "(app-client)/./src/components/MediaPlayer.js",
+    "/Users/andrewnwachuku/content-editor/src/components/Sidebar/SettingsPanel.js": {
+      "id": "(app-client)/./src/components/Sidebar/SettingsPanel.js",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/andrewnwachuku/content-editor/src/components/MediaPlayer.js#": {
-      "id": "(app-client)/./src/components/MediaPlayer.js",
+    "/Users/andrewnwachuku/content-editor/src/components/Sidebar/SettingsPanel.js#": {
+      "id": "(app-client)/./src/components/Sidebar/SettingsPanel.js",
       "name": "",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/andrewnwachuku/content-editor/src/components/MediaPlayer.js#default": {
-      "id": "(app-client)/./src/components/MediaPlayer.js",
+    "/Users/andrewnwachuku/content-editor/src/components/Sidebar/SettingsPanel.js#default": {
+      "id": "(app-client)/./src/components/Sidebar/SettingsPanel.js",
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/andrewnwachuku/content-editor/src/components/Overlay.js": {
-      "id": "(app-client)/./src/components/Overlay.js",
+    "/Users/andrewnwachuku/content-editor/src/components/Sidebar/index.js": {
+      "id": "(app-client)/./src/components/Sidebar/index.js",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/andrewnwachuku/content-editor/src/components/Overlay.js#": {
-      "id": "(app-client)/./src/components/Overlay.js",
+    "/Users/andrewnwachuku/content-editor/src/components/Sidebar/index.js#": {
+      "id": "(app-client)/./src/components/Sidebar/index.js",
       "name": "",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/andrewnwachuku/content-editor/src/components/Overlay.js#default": {
-      "id": "(app-client)/./src/components/Overlay.js",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/andrewnwachuku/content-editor/src/components/ScriptEditor.js": {
-      "id": "(app-client)/./src/components/ScriptEditor.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/andrewnwachuku/content-editor/src/components/ScriptEditor.js#": {
-      "id": "(app-client)/./src/components/ScriptEditor.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/andrewnwachuku/content-editor/src/components/ScriptEditor.js#default": {
-      "id": "(app-client)/./src/components/ScriptEditor.js",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/andrewnwachuku/content-editor/src/components/Sidebar.js": {
-      "id": "(app-client)/./src/components/Sidebar.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/andrewnwachuku/content-editor/src/components/Sidebar.js#": {
-      "id": "(app-client)/./src/components/Sidebar.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/andrewnwachuku/content-editor/src/components/Sidebar.js#default": {
-      "id": "(app-client)/./src/components/Sidebar.js",
+    "/Users/andrewnwachuku/content-editor/src/components/Sidebar/index.js#default": {
+      "id": "(app-client)/./src/components/Sidebar/index.js",
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
