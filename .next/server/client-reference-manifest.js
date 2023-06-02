@@ -282,9 +282,9 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./src/components/BottomBar/Overlay.js": {
+    "(app-client)/./src/components/BottomBar/SettingsOverlay.js": {
       "*": {
-        "id": "(sc_client)/./src/components/BottomBar/Overlay.js",
+        "id": "(sc_client)/./src/components/BottomBar/SettingsOverlay.js",
         "name": "*",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -292,7 +292,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "": {
-        "id": "(sc_client)/./src/components/BottomBar/Overlay.js",
+        "id": "(sc_client)/./src/components/BottomBar/SettingsOverlay.js",
         "name": "",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -300,7 +300,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/components/BottomBar/Overlay.js",
+        "id": "(sc_client)/./src/components/BottomBar/SettingsOverlay.js",
         "name": "default",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -1258,24 +1258,24 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/andrewnwachuku/content-editor/src/components/BottomBar/Overlay.js": {
-      "id": "(app-client)/./src/components/BottomBar/Overlay.js",
+    "/Users/andrewnwachuku/content-editor/src/components/BottomBar/SettingsOverlay.js": {
+      "id": "(app-client)/./src/components/BottomBar/SettingsOverlay.js",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/andrewnwachuku/content-editor/src/components/BottomBar/Overlay.js#": {
-      "id": "(app-client)/./src/components/BottomBar/Overlay.js",
+    "/Users/andrewnwachuku/content-editor/src/components/BottomBar/SettingsOverlay.js#": {
+      "id": "(app-client)/./src/components/BottomBar/SettingsOverlay.js",
       "name": "",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/andrewnwachuku/content-editor/src/components/BottomBar/Overlay.js#default": {
-      "id": "(app-client)/./src/components/BottomBar/Overlay.js",
+    "/Users/andrewnwachuku/content-editor/src/components/BottomBar/SettingsOverlay.js#default": {
+      "id": "(app-client)/./src/components/BottomBar/SettingsOverlay.js",
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"

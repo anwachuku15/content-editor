@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 import { useStateValue } from "@/context/StateProvider";
@@ -8,11 +8,6 @@ import { closeDummyPanel } from "@/context/actions";
 
 const DummyOverlay = () => {
 	const [state, dispatch] = useStateValue();
-
-	const [isMounted, setIsMounted] = useState(false);
-	useEffect(() => {
-		setIsMounted(true);
-	}, []);
 
 	return (
 		<motion.div

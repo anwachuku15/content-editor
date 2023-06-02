@@ -158,8 +158,7 @@ const MediaPlayer = () => {
 
 					<div className="mr-2">
 						<p className="text-[0.55rem] sm:text-xs font-roboto font-bold text-light-purple">
-							{formatTime(playbackTime)} /{" "}
-							{formatTime(audioRef.current?.duration || 0)}
+							{formatTime(playbackTime)} / {formatTime(playbackDuration || 0)}
 						</p>
 					</div>
 				</div>

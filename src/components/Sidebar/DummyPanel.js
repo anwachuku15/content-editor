@@ -3,18 +3,7 @@
 import { motion } from "framer-motion";
 import { XMarkIcon, ChevronDownIcon } from "@heroicons/react/24/solid";
 import { useStateValue } from "@/context/StateProvider";
-import {
-	setTargetInput,
-	addTarget,
-	removeTarget,
-	setContentThemeOpen,
-	setToneDurationOpen,
-	setTargetAudiencesOpen,
-	setDescriptiveWordsOpen,
-	setFineTuningOpen,
-	closeSettings,
-	closeDummyPanel,
-} from "@/context/actions";
+import { closeDummyPanel } from "@/context/actions";
 
 const DummyPanel = () => {
 	const [state, dispatch] = useStateValue();

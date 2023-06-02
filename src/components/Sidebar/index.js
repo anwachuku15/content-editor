@@ -1,27 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
-import {
-	AdjustmentsHorizontalIcon,
-	UserIcon,
-	XMarkIcon,
-	ChevronDownIcon,
-} from "@heroicons/react/24/solid";
+import { AdjustmentsHorizontalIcon, UserIcon } from "@heroicons/react/24/solid";
 import { useStateValue } from "@/context/StateProvider";
-import {
-	setTargetInput,
-	addTarget,
-	removeTarget,
-	setContentThemeOpen,
-	setToneDurationOpen,
-	setTargetAudiencesOpen,
-	setDescriptiveWordsOpen,
-	setFineTuningOpen,
-	closeSettings,
-	setIsSettingsOpen,
-	setIsSpeakerOpen,
-} from "@/context/actions";
+import { setIsSettingsOpen, setIsSpeakerOpen } from "@/context/actions";
 import SettingsPanel from "./SettingsPanel";
 import DummyPanel from "./DummyPanel";
 

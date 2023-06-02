@@ -16,8 +16,13 @@ import {
 	closeSettings,
 } from "@/context/actions";
 
-const Overlay = () => {
+const SettingsOverlay = () => {
 	const [state, dispatch] = useStateValue();
+
+	const [isMounted, setIsMounted] = useState(false);
+	useEffect(() => {
+		setIsMounted(true);
+	}, []);
 
 	const settings = [
 		{
@@ -46,11 +51,6 @@ const Overlay = () => {
 			setIsOpen: () => dispatch(setFineTuningOpen()),
 		},
 	];
-
-	const [isMounted, setIsMounted] = useState(false);
-	useEffect(() => {
-		setIsMounted(true);
-	}, []);
 
 	return (
 		<motion.div
@@ -170,4 +170,4 @@ const Overlay = () => {
 	);
 };
 
-export default Overlay;
+export default SettingsOverlay;

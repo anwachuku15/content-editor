@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { AdjustmentsHorizontalIcon, UserIcon } from "@heroicons/react/24/solid";
-import Overlay from "./Overlay";
+import SettingsOverlay from "./SettingsOverlay";
 import DummyOverlay from "./DummyOverlay";
 import { useStateValue } from "@/context/StateProvider";
 import { setIsSettingsOpen, setIsSpeakerOpen } from "@/context/actions";
@@ -25,7 +25,7 @@ const BottomBar = () => {
 
 	return (
 		<>
-			{state.isSettingsOpen && windowWidth < 768 && <Overlay />}
+			{state.isSettingsOpen && windowWidth < 768 && <SettingsOverlay />}
 			{state.isSpeakerOpen && windowWidth < 768 && <DummyOverlay />}
 
 			<div className="flex items-center h-[60px] md:hidden  justify-evenly">
