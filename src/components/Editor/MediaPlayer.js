@@ -168,7 +168,7 @@ const MediaPlayer = () => {
 			<div className="flex flex-col space-y-3 w-1/8 mt-8 mr-3 relative">
 				<ArrowDownTrayIcon
 					onClick={downloadAudio}
-					className="cursor-pointer h-4 sm:h-6 text-light-purple"
+					className="cursor-pointer h-4 sm:h-5 text-light-purple"
 				/>
 			</div>
 		</div>
