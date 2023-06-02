@@ -29,6 +29,11 @@ export const reducer = (state = initialState, action) => {
 				isSettingsOpen: false,
 				isSpeakerOpen: !state.isSpeakerOpen,
 			};
+		case "CLOSE_DUMMY_PANEL":
+			return {
+				...state,
+				isSpeakerOpen: false,
+			};
 		case "IS_CONTENT_THEME_OPEN":
 			return {
 				...state,

@@ -1,12 +1,3 @@
-export const SET_IS_SETTINGS_OPEN = "SET_IS_SETTINGS_OPEN";
-export const CLOSE_SETTINGS = "CLOSE_SETTINGS";
-export const IS_SPEAKER_OPEN = "IS_SPEAKER_OPEN";
-export const IS_CONTENT_THEME_OPEN = "IS_CONTENT_THEME_OPEN";
-export const IS_TONE_DURATION_OPEN = "IS_TONE_DURATION_OPEN";
-export const IS_TARGET_AUDIENCES_OPEN = "IS_TARGET_AUDIENCES_OPEN";
-export const IS_DESCRIPTIVE_WORDS_OPEN = "IS_DESCRIPTIVE_WORDS_OPEN";
-export const IS_FINE_TUNING_OPEN = "IS_FINE_TUNING_OPEN";
-
 export const setIsSettingsOpen = () => {
 	return {
 		type: "SET_IS_SETTINGS_OPEN",
@@ -16,6 +7,12 @@ export const setIsSettingsOpen = () => {
 export const closeSettings = () => {
 	return {
 		type: "CLOSE_SETTINGS",
+	};
+};
+
+export const closeDummyPanel = () => {
+	return {
+		type: "CLOSE_DUMMY_PANEL",
 	};
 };
 

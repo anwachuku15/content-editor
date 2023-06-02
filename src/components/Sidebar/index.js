@@ -23,6 +23,7 @@ import {
 	setIsSpeakerOpen,
 } from "@/context/actions";
 import SettingsPanel from "./SettingsPanel";
+import DummyPanel from "./DummyPanel";
 
 const Sidebar = () => {
 	const [isMounted, setIsMounted] = useState(false);
@@ -55,6 +56,7 @@ const Sidebar = () => {
 			</div>
 
 			<SettingsPanel />
+			<DummyPanel />
 		</>
 	);
 };
