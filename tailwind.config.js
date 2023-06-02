@@ -15,6 +15,7 @@ module.exports = {
 				josefin: ["Josefin Sans", "sans-serif"],
 				nunito: ["Nunito", "sans-serif"],
 				roboto: ["Roboto Mono", "monospace"],
+				"open-sans": ["Open Sans", "sans-serif"],
 			},
 			colors: {
 				"dark-purple": "#121628",
