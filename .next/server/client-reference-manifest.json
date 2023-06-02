@@ -1196,20 +1196,6 @@
       ],
       "async": false
     },
-    "/Users/andrewnwachuku/content-editor/src/app/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/andrewnwachuku/content-editor/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
     "/Users/andrewnwachuku/content-editor/src/app/page.js": {
       "id": "(app-client)/./src/app/page.js",
       "name": "*",
@@ -1473,6 +1459,20 @@
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
+    },
+    "/Users/andrewnwachuku/content-editor/src/app/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/andrewnwachuku/content-editor/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
     }
   }
 }

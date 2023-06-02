@@ -28,7 +28,7 @@ const BottomBar = () => {
 			{state.isSettingsOpen && windowWidth < 768 && <SettingsOverlay />}
 			{state.isSpeakerOpen && windowWidth < 768 && <DummyOverlay />}
 
-			<div className="flex items-center h-[60px] md:hidden  justify-evenly">
+			<div className="flex items-center h-[48px] md:h-[60px] md:hidden  justify-evenly">
 				<div
 					onClick={() => dispatch(setIsSettingsOpen())}
 					className={`cursor-pointer flex items-center justify-center rounded-md h-9 w-9 duration-100 ${

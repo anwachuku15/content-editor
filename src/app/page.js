@@ -11,13 +11,13 @@ import { initialState, reducer } from "@/context/reducer";
 export default function Home() {
 	return (
 		<StateProvider initialState={initialState} reducer={reducer}>
-			<div className="flex flex-col h-screen overflow-hidden bg-dark-purple">
+			<div className="flex flex-col sm:h-screen h-[90vh] overflow-hidden bg-dark-purple">
 				<Header />
+				<BottomBar />
 				<div className="flex flex-grow">
 					<Sidebar />
 					<Editor />
 				</div>
-				<BottomBar />
 			</div>
 		</StateProvider>
 	);
