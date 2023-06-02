@@ -128,7 +128,7 @@ const Sidebar = () => {
 								</div>
 
 								<motion.div
-									initial={isMounted ? { height: 0 } : false}
+									initial={{ height: 0 }}
 									animate={
 										setting.isOpen ? { height: "fit-content" } : { height: 0 }
 									}
