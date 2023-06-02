@@ -6,7 +6,7 @@ import Overlay from "./Overlay";
 import { useStateValue } from "@/context/StateProvider";
 import { setIsSettingsOpen, setIsSpeakerOpen } from "@/context/actions";
 
-const BottomNav = () => {
+const BottomBar = () => {
 	const [state, dispatch] = useStateValue();
 	const [windowWidth, setWindowWidth] = useState();
 
@@ -25,6 +25,7 @@ const BottomNav = () => {
 	return (
 		<>
 			{state.isSettingsOpen && windowWidth < 768 && <Overlay />}
+
 			<div className="flex items-center h-[60px] md:hidden  justify-evenly">
 				<div
 					onClick={() => dispatch(setIsSettingsOpen())}
@@ -48,4 +49,4 @@ const BottomNav = () => {
 	);
 };
 
-export default BottomNav;
+export default BottomBar;

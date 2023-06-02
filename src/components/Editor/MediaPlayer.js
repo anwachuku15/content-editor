@@ -9,7 +9,7 @@ import {
 	ArrowUturnRightIcon,
 } from "@heroicons/react/24/solid";
 
-import audioSrc from "../../public/resources/chuku_thesedays_tagged.mp3";
+import audioSrc from "../../../public/resources/chuku_thesedays_tagged.mp3";
 
 const MediaPlayer = () => {
 	const audioRef = useRef(null);

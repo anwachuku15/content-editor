@@ -20,7 +20,6 @@ import {
 
 const Overlay = () => {
 	const [state, dispatch] = useStateValue();
-	// TODO: Script Generation Settings responsive font size (?)
 
 	const settings = [
 		{
