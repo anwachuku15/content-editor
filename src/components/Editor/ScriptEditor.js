@@ -71,7 +71,7 @@ const ScriptEditor = () => {
 					className="flex items-center justify-between px-1 sm:px-4 py-2 focus:outline-none bg-[#9e9cae] text-black rounded"
 					onClick={regenerateScript}
 				>
-					<ArrowPathIcon className="h-4 mr-2 rotate-[45deg] transform scale-y-[-1]" />
+					<ArrowPathIcon className="h-4 mr-1 sm:mr-2 rotate-[45deg] transform scale-y-[-1]" />
 					<p className=" font-nunito font-semibold text-xs sm:text-sm">
 						Regenerate Script
 					</p>
@@ -80,7 +80,7 @@ const ScriptEditor = () => {
 					<p className="font-nunito font-semibold text-xs sm:text-sm">
 						Generate Audio
 					</p>
-					<SunIcon className="h-4 ml-2" />
+					<SunIcon className="h-4 ml-1 sm:ml-2" />
 				</button>
 			</div>
 		</>

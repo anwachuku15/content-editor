@@ -1126,6 +1126,14 @@ input[type="range"]::-webkit-slider-thumb {
 
 @media (min-width: 640px){
 
+  .sm\:ml-2{
+    margin-left: 0.5rem;
+  }
+
+  .sm\:mr-2{
+    margin-right: 0.5rem;
+  }
+
   .sm\:h-6{
     height: 1.5rem;
   }
