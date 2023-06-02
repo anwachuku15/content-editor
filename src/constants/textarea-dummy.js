@@ -10,4 +10,4 @@ export const title =
 	"Reverse Turing: Imagine a future world where Chat GPT is sentient and possesses a level of consciousness and self-awareness similar to that of a human being. This would mark a significant milestone in the evolution of artificial intelligence (AI) and raise profound questions about the nature of intelligence, consciousness, and the ethical considerations surrounding sentient machines.";
 
 export const placeholderText =
-	"To get started, click Regenerate Script to generate some Lorem Ipsum text or just start typing! \n\nYou can also play and download the placeholder audio :)";
+	"To get started, click Regenerate Script to generate some text or just start typing! \n\nYou can also play and download the placeholder audio :)";
