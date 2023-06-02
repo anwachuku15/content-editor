@@ -1,13 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import {
-	AdjustmentsHorizontalIcon,
-	UserIcon,
-	XMarkIcon,
-	ChevronDownIcon,
-} from "@heroicons/react/24/solid";
+import { XMarkIcon, ChevronDownIcon } from "@heroicons/react/24/solid";
 import { useStateValue } from "@/context/StateProvider";
 import {
 	setTargetInput,
@@ -19,8 +13,6 @@ import {
 	setDescriptiveWordsOpen,
 	setFineTuningOpen,
 	closeSettings,
-	setIsSettingsOpen,
-	setIsSpeakerOpen,
 } from "@/context/actions";
 
 const SettingsPanel = () => {
