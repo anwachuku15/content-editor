@@ -14,6 +14,7 @@ module.exports = {
 			fontFamily: {
 				josefin: ["Josefin Sans", "sans-serif"],
 				nunito: ["Nunito", "sans-serif"],
+				roboto: ["Roboto Mono", "monospace"],
 			},
 			colors: {
 				"dark-purple": "#121628",
