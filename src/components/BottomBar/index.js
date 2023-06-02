@@ -35,7 +35,11 @@ const BottomBar = () => {
 						state.isSettingsOpen ? "bg-light-purple" : "transparent"
 					}`}
 				>
-					<AdjustmentsHorizontalIcon className="h-6 w-6 text-white" />
+					<AdjustmentsHorizontalIcon
+						className={`h-6 w-6 ${
+							state.isSettingsOpen ? "text-white" : "text-light-purple"
+						}`}
+					/>
 				</div>
 
 				<div
@@ -44,7 +48,11 @@ const BottomBar = () => {
 						state.isSpeakerOpen ? "bg-light-purple" : "transparent"
 					}`}
 				>
-					<UserIcon className="h-6 w-6 text-white" />
+					<UserIcon
+						className={`h-6 w-6 ${
+							state.isSpeakerOpen ? "text-white" : "text-light-purple"
+						}`}
+					/>
 				</div>
 			</div>
 		</>

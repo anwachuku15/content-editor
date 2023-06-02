@@ -38,7 +38,7 @@ const DummyPanel = () => {
 					onClick={() => dispatch(closeDummyPanel())}
 					className="flex align-middle cursor-pointer"
 				>
-					<XMarkIcon className="h-5 w-5 text-gray-400" />
+					<XMarkIcon className="h-5 w-5 black" />
 				</div>
 			</div>
 			<div className={`${!state.isSpeakerOpen && "scale-0"} duration-300`}>

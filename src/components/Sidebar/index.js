@@ -43,7 +43,11 @@ const Sidebar = () => {
 						state.isSettingsOpen ? "bg-light-purple" : "transparent"
 					} duration-100 cursor-pointer`}
 				>
-					<AdjustmentsHorizontalIcon className="h-6 w-6 text-white" />
+					<AdjustmentsHorizontalIcon
+						className={`h-6 w-6 ${
+							state.isSettingsOpen ? "text-white" : "text-light-purple"
+						}`}
+					/>
 				</div>
 				<div
 					onClick={() => dispatch(setIsSpeakerOpen())}
@@ -51,7 +55,11 @@ const Sidebar = () => {
 						state.isSpeakerOpen ? "bg-light-purple" : "transparent"
 					} duration-100 cursor-pointer`}
 				>
-					<UserIcon className="h-6 w-6 text-white " />
+					<UserIcon
+						className={`h-6 w-6 ${
+							state.isSpeakerOpen ? "text-white" : "text-light-purple"
+						}`}
+					/>
 				</div>
 			</div>
 

@@ -14,8 +14,6 @@ import {
 	setDescriptiveWordsOpen,
 	setFineTuningOpen,
 	closeSettings,
-	setIsSettingsOpen,
-	setIsSpeakerOpen,
 } from "@/context/actions";
 
 const Overlay = () => {
@@ -71,10 +69,7 @@ const Overlay = () => {
 			>
 				<div className="mt-4 pb-4 mx-[15px]">
 					{/* SETTINGS HEADER */}
-					<div className={`flex px-3 mb-2 justify-between items-center`}>
-						<div className="flex">
-							<XMarkIcon className="h-6 w-6 text-transparent" />
-						</div>
+					<div className={`flex px-1 mb-2 justify-between items-center`}>
 						<h1 className="text-light-purple text-xl select-none">
 							Script Generation Settings
 						</h1>
@@ -82,7 +77,7 @@ const Overlay = () => {
 							onClick={() => dispatch(closeSettings())}
 							className="flex cursor-pointer"
 						>
-							<XMarkIcon className="h-6 w-6 text-gray-400" />
+							<XMarkIcon className="h-5 w-5 black" />
 						</div>
 					</div>
 
@@ -92,14 +87,14 @@ const Overlay = () => {
 							<div key={index}>
 								<div className="h-[0.1px] bg-divider mt-4 mb-2" />
 								<div>
-									<div className="flex justify-between mb-2">
+									<div
+										onClick={() => setting.setIsOpen(!setting.isOpen)}
+										className="cursor-pointer flex justify-between mb-2"
+									>
 										<p className="text-stone-400 select-none">{setting.name}</p>
-										<div
-											onClick={() => setting.setIsOpen(!setting.isOpen)}
-											className={`cursor-pointer`}
-										>
+										<div className={`cursor-pointer`}>
 											<ChevronDownIcon
-												className={`h-5 w-5 text-gray-400 ${
+												className={`h-4 w-4 text-divider ${
 													setting.isOpen && "-rotate-180"
 												} duration-300`}
 											/>

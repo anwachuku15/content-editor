@@ -65,7 +65,7 @@ const SettingsPanel = () => {
 					onClick={() => dispatch(closeSettings())}
 					className="flex align-middle cursor-pointer"
 				>
-					<XMarkIcon className="h-5 w-5 text-gray-400" />
+					<XMarkIcon className="h-5 w-5 black" />
 				</div>
 			</div>
 
@@ -84,7 +84,7 @@ const SettingsPanel = () => {
 								</p>
 								<div className={`cursor-pointer`}>
 									<ChevronDownIcon
-										className={`h-4 w-4 text-gray-400 ${
+										className={`h-4 w-4 text-divider ${
 											setting.isOpen && "-rotate-180"
 										} duration-300`}
 									/>
