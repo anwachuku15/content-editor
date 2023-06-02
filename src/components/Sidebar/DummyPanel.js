@@ -16,7 +16,7 @@ const DummyPanel = () => {
 		>
 			{/* DUMMY HEADER */}
 			<div
-				className={`flex flex-row mt-3 mr-3 mb-2 w-full justify-between items-center duration-100 ${
+				className={`flex flex-row mt-3 mr-3 mb-2 w-full justify-between items-center duration-1000 ${
 					!state.isSpeakerOpen && "opacity-0"
 				}`}
 			>
@@ -30,7 +30,7 @@ const DummyPanel = () => {
 					<XMarkIcon className="h-5 w-5 black" />
 				</div>
 			</div>
-			<div className={`${!state.isSpeakerOpen && "opacity-0"} duration-100`}>
+			<div className={`${!state.isSpeakerOpen && "opacity-0"} duration-1000`}>
 				<h1 className="truncate text-white">Dummy content goes here</h1>
 			</div>
 		</div>

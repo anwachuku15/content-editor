@@ -54,7 +54,7 @@ const SettingsPanel = () => {
 		>
 			{/* SETTINGS HEADER */}
 			<div
-				className={`flex flex-row mt-3 mr-3 mb-2 w-full justify-between items-center duration-100  ${
+				className={`flex flex-row mt-3 mr-3 mb-2 w-full justify-between items-center duration-1000  ${
 					!state.isSettingsOpen && "opacity-0"
 				}`}
 			>
@@ -70,7 +70,7 @@ const SettingsPanel = () => {
 			</div>
 
 			{/* MENU ITEMS */}
-			<div className={`${!state.isSettingsOpen && "opacity-0"} duration-100`}>
+			<div className={`${!state.isSettingsOpen && "opacity-0"} duration-1000`}>
 				{settings.map((setting, index) => (
 					<div key={index}>
 						<div className="h-[0.1px] bg-divider mt-4 mb-2" />
