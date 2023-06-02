@@ -10,7 +10,7 @@ export const initialState = {
 	targets: [],
 };
 
-export const reducer = (state, action) => {
+export const reducer = (state = initialState, action) => {
 	switch (action.type) {
 		case "SET_IS_SETTINGS_OPEN":
 			return {
